@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/simply-sans" type="text/css"/> 
+    <title>Receiver</title>
+</head>
+<body>
+    <div class="app">
+		<div class="screen join-screen active">
+			<div class="form">
+				<h2>SHARE YOUR FILES SECURELY</h2>
+				<div class="form-input">
+					<label>JOIN ID</label>
+					<input type="text" id="join-id">
+				</div>
+				<div class="form-input">
+					<button id="receiver-start-con-btn">CONNECT</button>
+				</div>
+			</div>
+		</div>
+		<div class="screen fs-screen">
+			<div class="files-list">
+				<div class="title">SHARED FILES</div>
+			</div>	
+		</div>
+	</div>
+
+	<script type="text/javascript" src="https://cdn.socket.io/3.1.3/socket.io.min.js" integrity="sha384-cPwlPLvBTa3sKAgddT6krw0cJat7egBga3DJepJyrLl4Q9/5WLra3rrnMcyTyOnh" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.1/download.min.js"></script>
+	<script type="text/javascript" src="receiver.js"></script>
+    
+</body>
+</html>
